@@ -1,18 +1,20 @@
 import './App.css';
+import PetForm from './PetForm';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces  and Mandy <span className="heart">♥️</span> React
-        </p>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> I have a bike</label></br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> I have a car</label></br>
+        <p className="heart">♥️</p>
+        
+        <PetForm />
+
+        <br />
+
         <button>Click me!</button>
+
+        <br />
 
         <br />
         
