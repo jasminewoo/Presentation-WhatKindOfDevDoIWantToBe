@@ -1,5 +1,6 @@
 import './App.css';
-import PetForm from './PetForm';
+import PetForm from './Forms/PetForm';
+import FeedbackForm from './Forms/FeedbackForm';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
         <p className="heart">♥️</p>
         
         <PetForm />
+
+        <br />
+
+        <FeedbackForm />
 
         <br />
 
