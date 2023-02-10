@@ -11,4 +11,5 @@ Join me to help you get an idea of what kind of developer you want to pursue! We
 Throughout the presentation I will be linking to a lot of things. Here they all are: https://bit.ly/WhatKindOfDevLinks
 
 ### Tools:
-- I thought about using [gitpod](https://www.gitpod.io/) to do live coding (for front end and security bugs) but I am going to go with github codespaces instead because it will allow students to get more green squares. 
+- I thought about using [gitpod](https://www.gitpod.io/) to do live coding (for front end and security bugs) but I am going to go with github codespaces instead because it will allow students to get more green squares.
+ - I eventually want to get a testing environment set up with [cypress](https://cloud.cypress.io/), maybe [observable](https://observablehq.com/) could help with that?

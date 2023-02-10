@@ -30,10 +30,16 @@
   font-size: 0.75rem;
 }
 
-button {
+.button:link, .button:visited {
   border-radius: 99px;
   color: #fff;
   background-color: #ff00b8;
   cursor: pointer;
-  border: 10px solid #ff00b8;
+  border: 15px solid #ff00b8;
+  text-decoration: none;
+}
+
+.button:hover, .button:active {
+  background-color: red;
+  border: 15px solid red;
 }
