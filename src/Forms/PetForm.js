@@ -3,7 +3,7 @@ import './PetForm.css';
 function PetForm() {
   return (
     <div className="pet-form">
-      <p>Do you like cats or dogs?</p>
+      <p>Do you like cats and/or dogs?</p>
     
       <span>
         <input type="checkbox" id="pet" name="pet" value="Cat" />
