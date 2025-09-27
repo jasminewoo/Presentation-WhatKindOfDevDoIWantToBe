@@ -21,7 +21,7 @@ function App() {
         <br />
 
         <p>Want to see my favourite cat video?</p>
-        <a class="button" href="https://www.youtube.com/watch?v=wB9afdV2BgA">Click me!</a>
+        <a className="button" href="https://www.youtube.com/watch?v=wB9afdV2BgA">Click me!</a>
 
         <br />
 
