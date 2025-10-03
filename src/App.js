@@ -1,6 +1,7 @@
 import './App.css';
 import PetForm from './Forms/PetForm';
 // import FeedbackForm from './Forms/FeedbackForm';
+import EchoBox from './Components/Echobox';
 
 function App() {
   return (
@@ -21,11 +22,20 @@ function App() {
         <br />
 
         <p>Want to see my favourite cat video?</p>
-        <a class="button" href="https://www.youtube.com/watch?v=wB9afdV2BgA">Click me!</a>
+        <a className="button" href="https://www.youtube.com/watch?v=wB9afdV2BgA">Click me!</a>
 
         <br />
+        <br />
+        <br />
+        <br />
+        
+        <EchoBox />
 
         <br />
+        <br />
+        <br />
+        <br />
+
         
         <p>
           <a
