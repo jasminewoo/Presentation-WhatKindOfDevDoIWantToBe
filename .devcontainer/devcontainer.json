@@ -1,11 +1,13 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "name": "WhatKindOfDevDoIWantToBe",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
-  "postCreateCommand": "",
   "postAttachCommand": {
     "server": "npm start"
   },
@@ -14,13 +16,43 @@
       "openFiles": [
         "src/App.jsx"
       ]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "cweijan.vscode-database-client2"
+      ],
+      "settings": {
+        "editor.renderWhitespace": "all",
+        "database-client2.connections": [
+          {
+            "name": "Workshop Db",
+            "driver": "PostgreSQL",
+            "server": "postgres",
+            "port": 5432,
+            "database": "workshopdb",
+            "username": "postgres",
+            "password": "postgres"
+          }
+        ],
+        "database-client.autoConnect": true,
+        "database-client.showToolbar": true,
+        "database-client.keepAlive": true
+      }
     }
   },
   "portsAttributes": {
     "3000": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "5432": {
+      "label": "PostgreSQL",
+      "onAutoForward": "silent"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [
+    3000,
+    5432
+  ]
 }
