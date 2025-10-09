@@ -1,6 +1,6 @@
 import './App.css';
 import PetForm from './Forms/PetForm';
-// import FeedbackForm from './Forms/FeedbackForm';
+import EchoBox from './Components/Echobox';
 
 function App() {
   return (
@@ -20,8 +20,17 @@ function App() {
         <a className="button" href="https://www.youtube.com/watch?v=vF8JeMB9XF8">Rats Rats Rats!</a>
 
         <br />
+        <br />
+        <br />
+        <br />
+        
+        <EchoBox />
 
         <br />
+        <br />
+        <br />
+        <br />
+
         
         <p>
           <a
