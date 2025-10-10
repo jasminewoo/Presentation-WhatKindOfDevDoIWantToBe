@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <br />
+        <br />
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p className="heart">♥️</p>
         
@@ -30,18 +32,6 @@ function App() {
         <br />
         <br />
         <br />
-
-        
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
       </header>
     </div>
   );
