@@ -23,10 +23,8 @@ function EchoBox() {
 
             <div className='echo-output'>
                 <span>Preview:</span>
-                <div
-                    className="echo-preview"
-                    dangerouslySetInnerHTML={{ __html: echoed }}
-                />
+                <div className="echo-preview" dangerouslySetInnerHTML={{ __html: echoed }}>
+                </div>
             </div>
             
         </div>
