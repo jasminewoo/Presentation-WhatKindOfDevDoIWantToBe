@@ -11,9 +11,10 @@ Join me to help you get an idea of what kind of developer you want to pursue! We
 Throughout the presentation we will be linking to a lot of things. Here they all are: https://bit.ly/HelpWhatKindOfDev
 
 <details>
-<summary>Tools we are using</summary>
+<summary>Tools we could use</summary>
 <br>
-- We thought about using [gitpod](https://www.gitpod.io/) to do live coding (for front end and security bugs) but I am going to go with github codespaces instead because it will allow students to get more green squares. Github code spaces stopped working so we are using replit!
+- We thought about using [gitpod](https://www.gitpod.io/) to do live coding (for front end and security bugs) but I am going to go with github codespaces instead because it will allow students to get more green squares.
+- We could also use replit
 - Using Table Plus as a database visualization tool
 - Using neon for free hosting of the postgreSQL database. Helpful links [here](https://neon.tech/docs/connect/connect-postgres-gui) and [here](https://neon.tech/docs/manage/database-access).
 - DBngin is a way to view local databases on tablePlus
