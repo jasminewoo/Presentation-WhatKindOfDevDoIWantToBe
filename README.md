@@ -16,3 +16,4 @@ Throughout the presentation I will be linking to a lot of things. Here they all 
 - Using neon for free hosting of the postgreSQL database. Helpful links [here](https://neon.tech/docs/connect/connect-postgres-gui) and [here](https://neon.tech/docs/manage/database-access).
 - DBngin is a way to view local databases on tablePlus
 - I eventually want to get a testing environment set up with [cypress](https://cloud.cypress.io/), maybe [observable](https://observablehq.com/) could help with that?
+asfdasdf
