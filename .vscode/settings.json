@@ -1,3 +1,16 @@
 {
-    "githubPullRequests.remotes": []
+    "githubPullRequests.remotes": [],
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "postgres",
+            "port": 5432,
+            "name": "Workshop Db",
+            "driver": "PostgreSQL",
+            "database": "workshopdb",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ]
 }
