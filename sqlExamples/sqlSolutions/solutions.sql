@@ -1,3 +1,5 @@
+-- This is for the Data Science bug of miscategorized data!
+
 -- 1. Create the new ENUM type
 CREATE TYPE category_enum AS ENUM ('good', 'bad');
 
