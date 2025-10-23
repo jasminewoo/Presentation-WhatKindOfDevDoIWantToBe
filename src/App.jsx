@@ -1,11 +1,13 @@
 import './App.css';
 import PetForm from './Forms/PetForm';
 import EchoBox from './Components/Echobox';
+import WelcomeBanner from './Components/WelcomeBanner';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <WelcomeBanner />
         <br />
         <br />
         <img src="Octocat.png" className="App-logo" alt="logo" />
