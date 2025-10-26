@@ -1,7 +1,6 @@
-import './App.css';
-import PetForm from './Forms/PetForm';
-import EchoBox from './Components/Echobox';
-import WelcomeBanner from './Components/WelcomeBanner';
+import "./App.css";
+import PetForm from "./Forms/PetForm";
+import WelcomeBanner from "./Components/WelcomeBanner";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <br />
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p className="heart">♥️</p>
-        
+
         <PetForm />
 
         <br />
@@ -21,20 +20,17 @@ function App() {
         <br />
 
         <p>Want to see our favourite rat video?</p>
-        <a className="button" href="https://www.youtube.com/watch?v=vF8JeMB9XF8">Rats Rats Rats!</a>
+        <a
+          className="button"
+          href="https://www.youtube.com/watch?v=vF8JeMB9XF8"
+        >
+          Rats Rats Rats!
+        </a>
 
         <br />
         <br />
         <br />
         <br />
-        
-        <EchoBox />
-
-        <br />
-        <br />
-        <br />
-        <br />
-
       </header>
     </div>
   );
